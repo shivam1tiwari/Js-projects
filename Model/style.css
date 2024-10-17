@@ -1,0 +1,48 @@
+.model-hidden{
+    display: none;
+   
+    
+
+}
+.model p{
+    
+   padding: 5rem;
+   font-size: larger;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.btn{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.model{
+    display: block;
+    position: relative;
+    margin: 4rem auto;
+    width: 1100px;
+    padding: 1rem;
+    background-color: rgb(196, 187, 175);
+    
+    border: 1px solid black;
+    z-index: 2;
+    
+    
+
+}
+.overlay{
+    position: fixed;
+    background-color: rgb(237, 237, 147);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .7;
+    filter: blur(20px);
+    
+}
