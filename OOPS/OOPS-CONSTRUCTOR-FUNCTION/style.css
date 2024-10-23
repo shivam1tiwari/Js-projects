@@ -1,0 +1,31 @@
+.container{
+  position: relative;
+  background-color: aqua;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.img-2{
+  position: absolute;
+  
+
+}
+.img-2{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent; /* Width of the triangle */
+  border-right: 10px solid transparent; /* Width of the triangle */
+  border-bottom: 170px solid blue; /* Color of the triangle */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+  /* position: absolute; */
+  bottom: 40%; /* Positioning the triangle */
+  left: 49%; /* Centering horizontally */
+  transform-origin: bottom ; /* Rotate from the bottom left corner */
+  transform: rotate(-119deg); /* Initial rotation */
+}
+
