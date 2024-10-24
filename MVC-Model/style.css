@@ -1,0 +1,11 @@
+ .search:focus{
+
+outline: none;
+ }
+
+ .search{
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+
+ }

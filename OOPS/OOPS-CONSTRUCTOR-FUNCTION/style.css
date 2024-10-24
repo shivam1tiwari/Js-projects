@@ -29,3 +29,24 @@
   transform: rotate(-119deg); /* Initial rotation */
 }
 
+.button-section{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  padding: 1rem;
+
+}
+.button-section .button{
+  background-color: rgb(166, 166, 180);
+  padding: .3rem;
+  border-radius: .5rem;
+  border: 2px solid rgb(195, 190, 190);
+  cursor: pointer;
+  /* transition: background-color 2s ease-in-out; */
+  
+}
+.but-1:active , .but-2:active{
+  background-color: rgb(119, 119, 126);
+  
+}
+
